@@ -29,7 +29,7 @@ We used the [Eclipse Luna](https://www.eclipse.org/downloads/packages/release/lu
 We installed five Eclipse IDEs in the VMs: one for each of the four experimental versions due to the different Jaguar plugins. We installed in Eclipse in the users' home folder (*/home/{user}/eclipse*). The other Eclipse was installed (*/usr/share/eclipse-example*) for the tryout version of Jaguar, which is the same for the four VM users.
 
 ### Other files
-Files such as links and desktop icons we used in the VMs are available [here](https://github.com/saeg/user-study-sfl/vm-files).
+Files such as links and desktop icons we used in the VMs are available [here](https://github.com/saeg/user-study-sfl/tree/master/vm-files).
 The *eclipse.desktop* file must be edited to point the correct path of users' eclipse folders (i.e., expone, exptwo, expthree, or expfour).
 
 ### OS 
@@ -51,7 +51,7 @@ Video of Jaguar with the line list in [Portuguese](https://youtu.be/8CY0ZUx8TWg)
 The videos for Jaguar method and Jaguar list were put at the Desktop area and renamed as *jaguar-video.mp4*.
 
 ### Pre-questionnaire
-This questionnaire is a web application called **devselector**. It receives the input data of a participant candidate to select whether s/he is eligible to take part in the user study and allocates her/him to an experimental group. 
+This questionnaire is a web application called **devselector**. It receives the input data of a participant candidate to select whether s/he is eligible to take part in the user study and allocates her/him to an experimental group. The HIA method is used for this allocation process.
 
 ### Post-questionnaire
 This questionnaire was created as an Google Form. A copy of this questionnaire is available in [English](https://drive.google.com/open?id=1ZrAW74ASmBE6JdzCOl-4GUihvUAJOSYVE2z4SQBEuSA) and in [Portuguese](https://drive.google.com/open?id=1HD6oaoi9RRV41Yl9TxpUqhiDuUSdZdvxzqngU2-8ITI).
@@ -62,13 +62,13 @@ We installed the **devselector** application in a Tomcat 8 server. This code was
 After filling out the questionnaire, devselector creates an ID for the participants and provides a link to the corresponding VM as well as the user login and password.
 There are three pages in devselector:
 - **selector-form.xhtml**: contains the questionaire.
-- **selector-response.xhtml**: shows the response after foilling out the questionnaire.
+- **selector-response.xhtml**: shows the response after filling out the questionnaire.
 - **monitor.xhtml**: shows how many participants were allocated in the experimental groups.
 
 You must change the constants *serverLink* and *DIR_PATH_ABOVE* for your server and application folder, respectively.
 
 ### Script for sending data when turning off or logging out the VM
-The *sent* and *S10send* scripts (available here[https://github.com/saeg/user-study-sfl/scripts]) use the scp protocol to send the log data to a server as a backup if the participant did not press the stop button in the end of the experiment.
+The *sent* and *S10send* scripts (available [here](https://github.com/saeg/user-study-sfl/tree/master/scripts)) use the scp protocol to send the log data to a server as a backup if the participant did not press the stop button in the end of the experiment.
 You need to set the server, user and folder. Put the *sent* script in the */etc/init.d* folder and the *S10send* scripts in the */etc/rc0.d* and */etc/rc6.d* folders to run automatically.
 
 ### Virtual machines
