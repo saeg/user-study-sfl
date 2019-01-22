@@ -29,7 +29,7 @@ We used the [Eclipse Luna](https://www.eclipse.org/downloads/packages/release/lu
 We installed five Eclipse IDEs in the VMs: one for each of the four experimental versions due to the different Jaguar plugins. We installed in Eclipse in the users' home folder (*/home/{user}/eclipse*). The other Eclipse was installed (*/usr/share/eclipse-example*) for the tryout version of Jaguar, which is the same for the four VM users.
 
 ### Other files
-Files such as links and desktop icons we used in the VMs are available here[https://github.com/saeg/user-study-sfl/vm-files].
+Files such as links and desktop icons we used in the VMs are available [here](https://github.com/saeg/user-study-sfl/vm-files).
 The *eclipse.desktop* file must be edited to point the correct path of users' eclipse folders (i.e., expone, exptwo, expthree, or expfour).
 
 ### OS 
