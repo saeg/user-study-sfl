@@ -1,0 +1,22 @@
+Jaguar é uma ferramenta para auxiliar a localização de defeitos no Eclipse. 
+
+A ferramenta mostra os métodos / comandos mais suspeitos de conter defeitos. 
+
+Para isso, a Jaguar usa os resultados dos testes JUnit para calcular os trechos de código com maior chance de conter defeitos. 
+
+Para usá-la, vá até o projeto e selecione as opções Jaguar e Run Jaguar.
+
+A Jaguar vai mostrar os métodos / comandos mais suspeitos de conter defeitos, assim como o valor de suspeição de cada método / comando. 
+
+Os métodos / comandos são pintados em cores que indicam quatro níveis de suspeição:  
+Os vermelhos são os métodos / comandos mais suspeitos de conter defeitos; 
+os métodos / comandos em laranja são os mais suspeitos depois dos vermelhos; 
+os amarelos tem chance moderada de conter defeitos; 
+e os verdes também são suspeitos, mas tem menos chance de conter defeitos. 
+
+Ao clicar em um método / comando na Jaguar, seu código é mostrado no editor do Eclipse, o que permite navegar pelos métodos / comandos. 
+
+A Jaguar também fornece um controle slider para filtrar métodos / comandos que tenham um valor de suspeição maior ou igual ao valor selecionado. 
+
+Além disso, possui também um filtro de busca por texto para filtrar métodos / comandos com termos de interesse durante a busca por defeitos.
+

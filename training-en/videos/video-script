@@ -1,0 +1,23 @@
+Jaguar is a fault localization tool for Eclipse.
+
+The tool shows methods and statements that are more suspicious of being buggy. 
+
+Jaguar uses the JUnit results to pinpoint bug candidates. 
+
+To open Jaguar, select the options Jaguar and Run Jaguar.
+
+The upper table shows methods that are more suspicious of being faulty.
+
+The lower table shows statements that belongs to a select method in the upper table.
+
+The colours mean four suspiciousness score levels: 
+the red ones are the most suspicious bug candidates; 
+orange are the following ones; 
+yellow are the moderated bug candidates; 
+and green are the less suspicious ones. 
+
+When you click on a method or statement in Jaguar, the respective code is shown in the Editor area. 
+
+Jaguar also provides a slider to filter methods and statements that are equal or higher than the selected score 
+
+A text search filter is available to search for specific terms in the code.

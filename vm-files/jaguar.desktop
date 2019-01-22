@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Try Jaguar
+GenericName=JaguarExample
+Comment=IDE
+Exec=/usr/share/eclipse-example/eclipse
+Icon=/usr/share/eclipse-example/jaguar.jpg
+Terminal=false
+Type=Application
+Categories=Development;

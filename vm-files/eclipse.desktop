@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Eclipse Luna
+GenericName=EclipseLuna
+Comment=IDE
+Exec=/home/exptwo/eclipse/eclipse
+Icon=/home/exptwo/eclipse/eclipse.jpeg
+Terminal=false
+Type=Application
+Categories=Development;

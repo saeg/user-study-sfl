@@ -1,0 +1,21 @@
+#!/bin/sh
+datetime=`date '+%Y%m%d%H%M%S'`
+file=/home/experiment-one/Desktop/.jaguar_commands.log
+if [ -e $file ]; then 
+sshpass -p 'yourpassword' scp $file youruser@yourserver:path/jaguar_dev1_$datetime.log 
+fi
+
+file=/home/experiment-two/Desktop/.jaguar_commands.log
+if [ -e $file ]; then
+sshpass -p 'yourpassword' scp $file youruser@yourserver:path/jaguar_dev2_$datetime.log
+fi
+
+file=/home/experiment-three/Desktop/.jaguar_commands.log
+if [ -e $file ]; then
+sshpass -p 'yourpassword' scp $file youruser@yourserver:path/jaguar_dev3_$datetime.log
+fi
+
+file=/home/experiment-four/Desktop/.jaguar_commands.log
+if [ -e $file ]; then
+sshpass -p 'yourpassword' scp $file youruser@yourserver:path/jaguar_dev4_$datetime.log
+fi
