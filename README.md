@@ -93,7 +93,7 @@ Feel free to ask us in case of doubts.
 ### Citation
 ```
 @article{
-	title={Understanding Spectrum-based Fault Localization in Practice},
+	title={Understanding the Use of Spectrum-based Fault Localization: an Experimental Study},
 	author={Higor A. de Souza and Marcelo de S. Lauretto and Marcos L. Chaim and Fabio Kon},
 	journal={},
 	volume={},
