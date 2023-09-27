@@ -95,10 +95,10 @@ Feel free to ask us in case of doubts.
 @article{
 	title={Understanding the Use of Spectrum-based Fault Localization},
 	author={Higor A. de Souza and Marcelo de S. Lauretto and Marcos L. Chaim and Fabio Kon},
-	journal={},
+	journal={Journal Of Software: Evolution And Process},
 	volume={},
 	number={},
 	pages={},
-	year={2019}
+	year={2023}
 }
 ```
